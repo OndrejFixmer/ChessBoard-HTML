@@ -1,0 +1,34 @@
+
+html {
+    height: 100%;
+}
+
+body {
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.line {
+    height: 80px;
+}
+
+.container {
+    width: 640px;
+    border: 30px solid #5f5851;
+}
+
+.line:nth-child(even) .column:nth-child(odd) {
+    background-color: #000001;}
+.line:nth-child(odd) .column:nth-child(even) {
+    background-color: #000000;}
+
+.column {
+    display: inline-block;
+    background-color: white;
+    width: 80px;
+    height: 80px;
+}
+
+
